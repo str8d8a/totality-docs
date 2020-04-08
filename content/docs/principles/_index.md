@@ -1,7 +1,9 @@
 ---
 title: "Principles for Designing on Totality"
 ---
-  
+
+# Guidelines For Designing With Totality
+
 1. Space is the join
     - Data that is situated in space has a unique advantage over all of ther data: no matter how it is collected, different observations can be connected ("joined" in database language) by latitude, longitude (and height, and sometimes time)
     - Spatial data is therefore different from other, more abstract collections, because it carries its own index with it; the value of this is central
