@@ -3,15 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://str8d8a.github.io/categories/</loc>
+    <loc>https://str8d8a.github.io/docs/concepts/epistemology/</loc>
   </url>
   
   <url>
-    <loc>https://str8d8a.github.io/tags/</loc>
+    <loc>https://str8d8a.github.io/docs/concepts/ontology/facility/</loc>
   </url>
   
   <url>
     <loc>https://str8d8a.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/docs/concepts/ontology/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/docs/concepts/ontology/reservoir/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/docs/concepts/axiology/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/docs/concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/tags/</loc>
   </url>
   
 </urlset>
