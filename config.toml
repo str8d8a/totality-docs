@@ -1,6 +1,8 @@
 baseURL = "https://str8d8a.github.io/totality-docs/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Totality"
 
 theme = "book"
 publishDir = "docs"
+
+relativeURLs = true
