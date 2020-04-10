@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://str8d8a.github.io/docs/building-on/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/docs/contributing/</loc>
+  </url>
+  
+  <url>
     <loc>https://str8d8a.github.io/docs/concepts/epistemology/</loc>
   </url>
   
@@ -39,7 +47,23 @@
   </url>
   
   <url>
+    <loc>https://str8d8a.github.io/docs/motivation/</loc>
+  </url>
+  
+  <url>
     <loc>https://str8d8a.github.io/docs/principles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/docs/concepts/ontology/process/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/docs/concepts/ontology/resource/</loc>
+  </url>
+  
+  <url>
+    <loc>https://str8d8a.github.io/docs/concepts/ontology/routes-and-conveyances/</loc>
   </url>
   
   <url>

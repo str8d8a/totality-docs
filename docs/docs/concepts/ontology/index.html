@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Unapologetic Lumping  Splitters make very small units – their critics say that if they can tell two animals apart, they place them in different genera&hellip;and if they cannot tell them apart, they place them in different species. Lumpers make large units – their critics say that if a carnivore is neither a dog nor a bear, they call it a cat.
+<meta name="description" content="The Totality Ontology Unapologetic Lumping  Splitters make very small units – their critics say that if they can tell two animals apart, they place them in different genera&hellip;and if they cannot tell them apart, they place them in different species. Lumpers make large units – their critics say that if a carnivore is neither a dog nor a bear, they call it a cat.
  &ndash; George Simpson, &ldquo;The Principles of Classification and a Classification of Mammals&rdquo;"><meta property="og:title" content="Ontology" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
@@ -13,7 +13,7 @@
 <title>Ontology | Totality</title>
 <link rel="icon" href="../../../favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="../../../book.min.284c8fc21ced13c579d9027a9d14893c56b243c6045001180391cebb4cc36ab8.css" integrity="sha256-KEyPwhztE8V52QJ6nRSJPFayQ8YEUAEYA5HOu0zDarg=">
-<script defer src="../../../en.search.min.645ff27bb45612e83175f8bf0c4c3de42beb0219ead911ca4229216e33f9d4be.js" integrity="sha256-ZF/ye7RWEugxdfi/DEw95CvrAhnq2RHKQikhbjP51L4="></script>
+<script defer src="../../../en.search.min.93f2b858325c2af67a420fe9a0c39fa3b958b1870a5e3082de0935a128fb4cab.js" integrity="sha256-k/K4WDJcKvZ6Qg/poMOfo7lYsYcKXjCC3gk1oSj7TKs="></script>
 <link rel="alternate" type="application/rss+xml" href="https://str8d8a.github.io/docs/concepts/ontology/index.xml" title="Totality" />
 <!--
 Made with Book Theme
@@ -69,6 +69,64 @@ https://github.com/alex-shpak/hugo-book
 
   
   <ul>
+    
+      
+        
+
+  <li>
+    
+
+  
+  <a href="../../../docs/building-on/" class="">Building On</a>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li>
+    
+
+  
+  <span>Contributing</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
     
       
         
@@ -148,6 +206,44 @@ https://github.com/alex-shpak/hugo-book
       
     
       
+        <li>
+
+  
+  <a href="../../../docs/concepts/ontology/reservoir/" class="">Reservoir</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="../../../docs/concepts/ontology/process/" class="">Process</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="../../../docs/concepts/ontology/resource/" class="">Resource</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="../../../docs/concepts/ontology/routes-and-conveyances/" class="">Routes and Conveyances</a>
+  
+
+</li>
+      
     
   </ul>
   
@@ -196,6 +292,16 @@ https://github.com/alex-shpak/hugo-book
   </li>
 
 
+      
+    
+      
+        <li>
+
+  
+  <a href="../../../docs/motivation/" class="">Motivation</a>
+  
+
+</li>
       
     
       
@@ -283,7 +389,10 @@ https://github.com/alex-shpak/hugo-book
   <nav id="TableOfContents">
   <ul>
     <li><a href="#unapologetic-lumping">Unapologetic Lumping</a></li>
-    <li><a href="#types">Types</a></li>
+    <li><a href="#nodes">Nodes</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#readings">Readings</a></li>
+    <li><a href="#transportation">Transportation</a></li>
   </ul>
 </nav>
 
@@ -295,7 +404,8 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="unapologetic-lumping">Unapologetic Lumping</h2>
+  <article class="markdown"><h1 id="the-totality-ontology">The Totality Ontology</h1>
+<h2 id="unapologetic-lumping">Unapologetic Lumping</h2>
 <blockquote>
 <p>Splitters make very small units – their critics say that if they can tell two animals apart, they place them in different genera&hellip;and if they cannot tell them apart, they place them in different species. Lumpers make large units – their critics say that if a carnivore is neither a dog nor a bear, they call it a cat.</p>
 </blockquote>
@@ -303,34 +413,53 @@ https://github.com/alex-shpak/hugo-book
 <p>Totality is unabashedly a lumping enterprise. While it is necessary to draw some distinctions in the world (and to maintain enough information to allow downstream users to make finer distinctions as required by their application), Totality itself aims to make do with as few concepts and categories as it can.</p>
 <p>This dictated by aesthetic concerns, to be sure, but also by practical constraints: as a massively multiplayer platform, Totality must be legible to people of many different backgrounds and motivations. Every additional complexity in its external face will reduce the number who are willing and able to engage with it - whether as contributors or consumers.</p>
 <p>The concepts and entities explained here therefore constitute the minimal set that is capable of representing the natural and man-made world without truly ugly contortions.</p>
-<h2 id="types">Types</h2>
-<p>Totality attempts to describe the natural and man-made worlds with as few concepts as possible.</p>
+<p><img src="../../../img/Totality_ERD.png" alt="Totality entities and their relationships" /></p>
+<h2 id="nodes">Nodes</h2>
+<p>Totality divides the whole world into just a few basic categories, together referred to as nodes. These are divided along two dimensions: whether the node is man-made or naturally occurring, and whether it represents a quantity at rest (a stock), or a process of transformation from one or more quantities to others.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nodes</th>
+<th align="center">Engineered</th>
+<th align="center">Naturally Occurring</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Stock</strong></td>
+<td align="center"><a href="../../../docs/concepts/ontology/reservoir">Reservoir</a></td>
+<td align="center"><a href="../../../docs/concepts/ontology/resource">Resource</a></td>
+</tr>
+<tr>
+<td align="center"><strong>Transformer</strong></td>
+<td align="center"><a href="../../../docs/concepts/ontology/facility">Facility</a></td>
+<td align="center"><a href="../../../docs/concepts/ontology/process">Process</a></td>
+</tr>
+</tbody>
+</table>
+<p>There are many other thing to know about nodes, and Totality does allow for quite a bit of detail to be included, but these are the basic forms that items take.</p>
 <ul>
 <li>
-<p><a href="../../../docs/concepts/ontology/facility">Facility</a></p>
+<p>A <a href="reservoir">reservoir</a> is a vessel that can accommodate a stock of a material, substance, energy, populations of animals, or even human beings.</p>
 </li>
 <li>
-<p><a href="../../../docs/concepts/ontology/reservoir">Reservoir</a></p>
+<p>A <a href="resource">resource</a> is a collection of minerals, timber, water, or an ecosystem or other configuration of the natural world - any aspect of the planet that might be assigned value of any sort.</p>
 </li>
 <li>
-<p>Reading</p>
+<p>A <a href="facility">facility</a> is any human-made location that serves any purpose, whether material transformation or refinement, life-supporting, recreational, or spiritual.</p>
 </li>
 <li>
-<p>Process</p>
-</li>
-<li>
-<p>Resource</p>
-</li>
-<li>
-<p>Ecosystem service</p>
-</li>
-<li>
-<p>Conveyance</p>
-</li>
-<li>
-<p>Route</p>
+<p>A <a href="process">process</a> is any physical, chemical, or biological change to takes place under natural conditions.</p>
 </li>
 </ul>
+<p>One of the core tenets of Totality is that attempts to segregate human civilization and economic activity from the natural environment is misguided and harmful. It may seem strange, then, that the natural / engineered distinction is so prominent in our ontology. And it is indeed the case that some nodes are ambiguous. Is a large suburban park comprising many acres of forest better represented as a natural resource or a human-engineered and -managed facility?</p>
+<p>While these dividing lines are not unimportant, it is also important to keep in mind that Totality takes the complexity of the built and natural worlds in stride. Rather than trying to account for each difficult case, the system relies on emergent conventions and collaborative practices to arrive at satisficing solutions.</p>
+<h2 id="services">Services</h2>
+<p>Every node can be described in terms of the services it provides, or is capable of providing.</p>
+<h2 id="readings">Readings</h2>
+<p>While the various node types and their relationships are the essential underpinning of Totality&rsquo;s view of the world, it is our ongoing observations of these nodes that generates planetary-scale perceptions. Reading</p>
+<h2 id="transportation">Transportation</h2>
+<p>A key aspect of the planetary system is that people, animals, materials, products, and energy move from one place to another, both as a result of natural processes and due to intentional human efforts. These transport processes cover everything from intermodal container shipping to seasonal freshwater flows from snowpack to eventual outflows. These phenomena are represented using the conveyance and route types.</p>
 </article>
  
       
@@ -366,7 +495,10 @@ https://github.com/alex-shpak/hugo-book
   <nav id="TableOfContents">
   <ul>
     <li><a href="#unapologetic-lumping">Unapologetic Lumping</a></li>
-    <li><a href="#types">Types</a></li>
+    <li><a href="#nodes">Nodes</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#readings">Readings</a></li>
+    <li><a href="#transportation">Transportation</a></li>
   </ul>
 </nav>
 
