@@ -16,17 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://str8d8a.github.io/docs/concepts/ontology/facility/</guid>
-      <description>Facility A facility is any structure or location that is constructed and/or largely managed by human effort. Facilities are described in terms of the materials they house, the transformations they perform on those materials, and/or the services they provide.
+      <description>Facilities A facility is any structure or location that is constructed and/or largely managed by human effort. Facilities are described in terms of the materials they house, the transformations they perform on those materials, and/or the services they provide.
    Facility Transformations Stocks Services     Mine In-ground ore (resource) ⇒ refined ore (reservoir) On-site inventory Employment   Dam  Water reservoir Electricity provisioning, Water provisioning, Recreation   Clothing factory Textiles ⇒ finished clothing Input inventory Employment   Hospital  Beds Personal    </description>
-    </item>
-    
-    <item>
-      <title>Reservoir</title>
-      <link>https://str8d8a.github.io/docs/concepts/ontology/reservoir/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://str8d8a.github.io/docs/concepts/ontology/reservoir/</guid>
-      <description>Reservoirs </description>
     </item>
     
     <item>
@@ -37,6 +28,17 @@
       <guid>https://str8d8a.github.io/docs/concepts/ontology/process/</guid>
       <description>Processes A process refers to any naturally occurring physical, chemical, or biological transformation. The inclusion of natural processes alongside human activities is a clear indication of the fact that Totality aims to model the human and environmental layers of the planetary system as one, without rendering either sphere as subordinate to the other or &amp;ldquo;external&amp;rdquo;.
 At the same time, and in contrast to the other node types - facilities, reservoirs, and resources - Totality makes no attempt to capture or describe all of the natural processes on the planet.</description>
+    </item>
+    
+    <item>
+      <title>Reservoir</title>
+      <link>https://str8d8a.github.io/docs/concepts/ontology/reservoir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://str8d8a.github.io/docs/concepts/ontology/reservoir/</guid>
+      <description>Reservoirs A reservoir is any human-engineered vessel that can house or otherwise contain a quantity of value - whether material, energy, animal, or human. Reservoirs are typically associated with a facility, though they may provide their own services that are separate from those provided by their host facility.
+Reservoirs span a very wide range of types.
+Physical reservoirs are spaces - enclosed or not, fully engineered or semi-natural - that store a quantity of material.</description>
     </item>
     
     <item>
